@@ -1,0 +1,402 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    font-family: Helvetica;
+}
+.container >img{
+    width: 100%;
+    filter: brightness(50%);
+    height: 100%
+}
+.content{
+    width: 80%;
+    background-color: transparent;
+    position: absolute;
+    margin: auto;
+    top: 5%;
+    box-shadow: 0 0 40px black;
+    display: flex;
+    left: 10%;
+    height: 89%;    
+}
+.left{
+    width: 20%;
+    height: 100%;
+    box-shadow: 0  0 10px rgb(0, 0, 0);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+}
+.top{
+    width: 100%;
+    background-color:#181818;
+    position: absolute;
+    height: 8%;
+    display: flex;
+}
+.top > h1{
+    color: white;
+    font-size: 25px;
+    font-weight: 100;
+    margin: auto;
+}
+.atag{
+    top: 9%;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    padding: 10px;
+}
+.atag > a{
+    color: rgb(233, 226, 226);
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+    margin-left: 36px;    
+}
+.footer{
+    width: 100%;
+    top: 90%;
+    display: flex;
+    position: absolute;
+}
+.footer > i{
+    color: rgb(91, 131, 167);
+    font-size: 20px;
+    margin: 12px 63px;
+}
+.footer > h2{
+    font-size: 15px;
+    margin: 12px -60px;
+    color: white;
+    font-weight: 100;
+}
+.right{
+    width: 80%;
+    height: 100%;
+}
+.box1{
+    width: 90%;
+    height: 48%;
+    margin: 5% 5%;
+    position: relative;
+    display: flex;
+    background-color: transparent;
+    box-shadow:  0 0 40px black;
+    flex-direction: column;
+}
+.box1 > h1{
+    margin: 1px 10px;
+    color: rgb(255, 174, 0);
+    font-size: 15px;
+    font-weight: 900;
+}
+.box1 > h2{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin: 5px 22px;
+}
+.music1{
+    width: 95%;
+    padding: 15px;
+    height: 15%;
+    position: relative;
+    margin-left: 2.5%;
+    display: flex;
+    margin-top: 15px;
+    background-color: #181818;
+}
+.music1 >h1{
+    color: white;
+    font-size: 15px;
+}
+.music1 > h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 38%;
+    margin-top: -4px;
+}
+.music1 > input{
+    width: 48%;
+    left: 50%;
+    top: 12px;
+    position: absolute; 
+}
+.music2{
+    width: 95%;
+    padding: 15px;
+    height: 15%;
+    margin-left: 2.5%;
+    margin-top: 3px;
+    position: relative;
+    background-color: #181818;
+}
+.music2 >h1{
+    color: white;
+    font-size: 15px;
+}
+.music2 > h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: -18px;
+}
+.music2 > input{
+    width: 48%;
+    left: 50%;
+    top: 12px;
+    position: absolute; 
+}
+.music3{
+    width: 95%;
+    padding: 15px;
+    height: 15%;
+    position: relative;
+    margin-left: 2.5%;
+    margin-top: 3px;
+    background-color: #181818;
+}
+.music3 >h1{
+    color: white;
+    font-size: 15px;
+}
+.music3 > h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: -18px;
+}
+.music3 > input{
+    width: 48%;
+    left: 50%;
+    top: 12px;
+    position: absolute; 
+}
+.music4{
+    width: 95%;
+    padding: 15px;
+    position: relative;
+    height: 15%;
+    margin-left: 2.5%;
+    margin-top: 3px;
+    display: flex;
+    background-color: #181818;
+}
+.music4 >h1{
+    color: white;
+    font-size: 15px;
+}
+.but{
+    height: 250%;
+    text-align: center;
+    margin-left: 55%;
+    border: 1px solid white;
+    margin-top: -9px;
+    width: 20%;
+    background-color: transparent;
+}
+.but > button{
+    padding: 3px 21px;
+    object-fit: cover;
+    width: 50%;
+    height: 100%;
+}
+#on{
+    margin-left: -5px;
+    color: white;
+    background-color: black;
+    
+
+}
+.music5{
+    width: 95%;
+    padding: 15px;
+    height: 15%;
+    margin-left: 2.5%;
+    margin-top: 3px;
+    background-color: #181818;
+}
+.music5 >h1{
+    color: white;
+    font-size: 15px;
+}
+
+.box2{
+    width: 90%;
+    height: 37%;
+    background-color: transparent;
+    margin: -4.7% 5%;
+    box-shadow: 0 0 40px black;
+}
+.butt{
+    height: 250%;
+    text-align: center;
+    margin-left: 71%;
+    border: 1px solid white;
+    margin-top: -25px;
+    width: 20%;
+    background-color: transparent;
+}
+.butt > button{
+    padding: 3px 21px;
+    width: 50%;
+    height: 100%;
+}
+#On{
+    margin-left: -5px;
+    color: white;
+    background-color: black;
+    
+
+}
+
+.box2 > h1{
+    margin: 1px 10px;
+    color: rgb(255, 174, 0);
+    font-size: 15px;
+    font-weight: 900;
+}
+.box2 > h2{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    margin: -18px 22px;
+}
+.voice1{
+    width: 95%;
+    padding: 15px;
+    height: 17%;
+    position: relative;
+    margin-left: 2.5%;
+    display: flex;
+    margin-top: 15px;
+    background-color: #181818;
+}
+
+.voice2{
+    width: 95%;
+    padding: 15px;
+    height: 17%;
+    margin-left: 2.5%;
+    margin-top: 3px;
+    background-color: #181818;
+}
+.voice3{
+    width: 95%;
+    padding: 15px;
+    height: 17%;
+    margin-left: 2.5%;
+    position: relative;
+    margin-top: 3px;
+    background-color: #181818;
+}
+.voice4{
+    width: 95%;
+    padding: 15px;
+    height: 17%;
+    margin-left: 2.5%;
+    margin-top: 3px;
+    background-color: #181818;
+}
+.voice1 >h1{
+    color: white;
+    font-size: 15px;
+    margin-top: -5px;
+
+}
+.voice1 > h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 38%;
+    margin-top: -4px;
+}
+.voice1 > input{
+    width: 48%;
+    left: 50%;
+    top: 12px;
+    position: absolute; 
+}
+.voice2 >h1{
+    color: white;
+    margin-top: -5px;
+    font-size: 15px;
+}
+.balance{
+    height: 500%;
+    text-align: center;
+    margin-left: 71%;
+    border: 1px solid white;
+    margin-top: -29px;
+    width: 20%;
+    background-color: transparent;
+}
+.balance > button{
+    width: 50%;
+    height: 100%;
+}
+#manu{
+    margin-left: -5px;
+    color: white;
+    background-color: black;
+}
+.voice3 > h1{
+
+}
+.voice3 >h1{
+    color: white;
+    font-size: 15px;
+    margin-top: -5px;
+}
+.voice3 > h2{
+    color: white;
+    font-size: 15px;
+    margin-left: 45%;
+    margin-top: -18px;
+}
+.voice3 > input{
+    width: 48%;
+    background-color: red;
+    left: 50%;
+    top: 12px;
+    position: absolute; 
+}
+.voice4 >h1{
+    color: white;
+    margin-top: -5px;
+    font-size: 15px;
+}
+.position{
+    height: 500%;
+    text-align: center;
+    margin-left: 71%;
+    border: 1px solid white;
+    margin-top: -29px;
+    display: flex;
+    width: 20%;
+    background-color: transparent;
+}
+.position > button{
+    width: 50%;
+    height: 100%;
+}
+#OO{
+    color: white;
+    background-color: black;
+}
+    
